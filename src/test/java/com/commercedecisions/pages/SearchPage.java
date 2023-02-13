@@ -15,5 +15,8 @@ public class SearchPage extends BasePage {
 @FindBy( css  = searchButtonCss)
 public WebElement SearchButton;
 
+@FindBy(xpath = "//a[@href='/support/solutions/articles/80001015631-supplier-self-registration']")
+public WebElement article;
+
 
 }
