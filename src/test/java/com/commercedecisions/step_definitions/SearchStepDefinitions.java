@@ -27,10 +27,10 @@ public class SearchStepDefinitions {
     }
 
     @When("user enters {string} and click search button")
-    public void user_enters_and_click_search_button(String string) {
+    public void user_enters_and_click_search_button(String search) {
         Driver.waitById(searchBoxId);
 
-        searchPage.searchBox.sendKeys("jaggaer");
+        searchPage.searchBox.sendKeys(search);
         searchPage.SearchButton.click();
     }
 

@@ -18,5 +18,10 @@ public WebElement SearchButton;
 @FindBy(xpath = "//a[@href='/support/solutions/articles/80001015631-supplier-self-registration']")
 public WebElement article;
 
+@FindBy(xpath = "//a[@href='/support/solutions/articles/80001015631-supplier-self-registration']")
+    public WebElement google;
+@FindBy(xpath = "//a[@href='/support/solutions/articles/80001015631-supplier-self-registration']")
+    public WebElement mamad;
+
 
 }
